@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+    <!--<display-name>-->
+    <!--test-->
+    <!--</display-name>-->
+    <!--<filter>-->
+    <!--<description>-->
+    <!--</description>-->
+    <!--<display-name>-->
+    <!--GuruFilter-->
+    <!--</display-name>-->
+    <!--<filter-name>GuruFilter</filter-name>-->
+    <!--<filter-class>demotest.GuruFilter</filter-class>-->
+    <!--<init-param>-->
+    <!--<param-name>guru-param</param-name>-->
+    <!--<param-value>This is guru parametr</param-value>-->
+    <!--</init-param>-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+    <!--<filter-name>GuruFilter</filter-name>-->
+    <!--<url-pattern>/index.jsp</url-pattern>-->
+    <!--</filter-mapping>-->
+
+
+    <!--<servlet>-->
+    <!--<servlet-name>include</servlet-name>-->
+    <!--<servlet-class>demotest.Guru_register</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+    <!--<servlet-name>include</servlet-name>-->
+    <!--<url-pattern>/Guru_register</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+    <!--<welcome-file-list>-->
+        <!--<welcome-file>register_3.jsp</welcome-file>-->
+    <!--</welcome-file-list>-->
+    <!--<servlet>-->
+
+        <!--<servlet-name>login</servlet-name>-->
+        <!--<servlet-class>demotest.Guru_login</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>login</servlet-name>-->
+        <!--<url-pattern>/Guru_login</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+    <welcome-file-list>
+        <welcome-file>action_file.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>
